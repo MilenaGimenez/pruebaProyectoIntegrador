@@ -61,3 +61,32 @@ h1 {
   color: white;
   text-align: center;
 }
+
+.footerOpciones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  justify-content: space-around;
+}
+
+.opcionFooterBtnTxt{
+  display: flex;
+  color: white;
+  width: 25rem;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.opcionFooterBtnIcono{
+  display: flex;
+  color: white;
+  width: 25rem;
+  justify-content: center;
+}
+
+.icons2 {
+  width: 2rem;
+  margin: 0 2rem 0 2rem;
+}
