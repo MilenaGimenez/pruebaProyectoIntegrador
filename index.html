@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="./styles.css">        
     </head>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="Imagenes/Logo principal.png" alt="Home logo" class="imagenLogo"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +25,8 @@
             </div>
 
             <div class="opcion2">
-              <a class="nav-link active" aria-current="page" href="#"><img src="Imagenes/whatsapp logo.png" alt="Whatsapp logo" class="icons"/></a>
-              <a class="nav-link" href="#"><img src="Imagenes/instagram logo.png" alt="Instagram logo" class="icons"/></a>
+              <a class="nav-link active" aria-current="page" href="#"><img src="Imagenes/wspblack.png" alt="Whatsapp logo" class="icons"/></a>
+              <a class="nav-link" href="#"><img src="Imagenes/instblack.png" alt="Instagram logo" class="icons"/></a>
             </div>
 
           </div>
@@ -35,52 +35,61 @@
     </nav>
 
     <body>
-      <div class="contenedorLogoPrincipal">
-        <img src="Imagenes/Logo principal.png" alt="Logo" class="logoPrincipal"/>
-      </div>
+      <div class="contenedorPrincipal">      
+        <!-- <div class="contenedorLogoPrincipal">
+          <img src="Imagenes/Logo principal.png" alt="Logo" class="logoPrincipal"/>
+        </div> -->
 
-        <div class="container">
-          <h2 class="tituloContacto">Contacto</h2>
-          <p class="textoDescripcion">Por consultas o encargos, completá el formulario a continuación y un miembro del equipo se contactará a la brevedad 😊</p>
-          <form class="formulario">
-            <div class="mb-3">
-              <label for="name" class="form-label">Nombre: </label>
-              <input type="text" class="form-control" id="name" required>
+          <div class="container">
+
+            <div class="textosDeContacto">
+              <h2 class="tituloContacto">Contacto</h2>
+              <p class="textoDescripcion">Por consultas o encargos, completá el formulario a continuación y un miembro del equipo se contactará a la brevedad 😊</p>
             </div>
 
-            <div class="mb-3">
-              <label for="lastname" class="form-label">Apellido:</label>
-              <input type="text" class="form-control" id="lastname" required>
-            </div>
+            <form class="formulario">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre: </label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
 
-            <div class="mb-3">
-              <label for="email" class="form-label">Email:</label>
-              <input type="email" class="form-control" id="email" required>              
-            </div>
+              <div class="mb-3">
+                <label for="lastname" class="form-label">Apellido:</label>
+                <input type="text" class="form-control" id="lastname" required>
+              </div>
 
-            <div class="mb-3">
-              <label for="textarea" class="form-label">Mensaje:</label>
-              <textarea name="textarea" rows="5" cols="50" class="form-control" id="textarea"></textarea>             
-            </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" required>              
+              </div>
 
-            <button type="submit" class="btn btn-dark">Enviar</button>
-          </form>          
-        </div>
-        <footer class="footerEstilos">
-          <div class="footerOpciones">
-            <div class="opcionFooterBtnTxt">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Quienes somos</a>
-              <a class="nav-link" href="#">Galería</a>
-              <a class="nav-link" href="#">Contacto</a>
-            </div>
+              <div class="mb-3">
+                <label for="textarea" class="form-label">Mensaje:</label>
+                <textarea name="textarea" rows="5" cols="50" class="form-control" id="textarea"></textarea>             
+              </div>
 
-            <div class="opcionFooterBtnIcono">
-              <a class="nav-link active" aria-current="page" href="#"><img src="Imagenes/./whatsapplogowhite.png" alt="Whatsapp logo" class="icons2"/></a>
-              <a class="nav-link" href="#"><img src="Imagenes/./instagramlogowhite.png" alt="Instagram logo" class="icons"/></a>
-            </div>
+              <button type="submit" class="btn botonEnviar">Enviar</button>
+            </form>          
           </div>
+          
+          <footer class="footerEstilos">
+            <div class="footerOpciones">
+              <div class="opcionFooterBtnTxt">
+                <a class="nav-link optionsNav" aria-current="page" href="#">Home</a>
+                <a class="nav-link optionsNav" href="#">Quienes somos</a>
+                <a class="nav-link optionsNav" href="#">Galería</a>
+                <a class="nav-link optionsNav" href="#">Contacto</a>
+                <a class="nav-link" aria-current="page" href="#"><img src="Imagenes/wspwhite.png" alt="Whatsapp logo" class="icons2"/></a>
+                <a class="nav-link" href="#"><img src="Imagenes/isntwhite.png" alt="Instagram logo" class="icons2"/></a>
+              </div>
 
-        </footer>
+              <!-- <div class="opcionFooterBtnIcono">
+                <a class="nav-link active" aria-current="page" href="#"><img src="Imagenes/wspwhite.png" alt="Whatsapp logo" class="icons2"/></a>
+                <a class="nav-link" href="#"><img src="Imagenes/isntwhite.png" alt="Instagram logo" class="icons2"/></a>
+              </div> -->
+            </div>
+
+          </footer>
+      </div>
     </body>
 </html>

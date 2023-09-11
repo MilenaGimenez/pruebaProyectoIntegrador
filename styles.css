@@ -1,26 +1,25 @@
-h1 {
-    
-        color:pink;
-        font-family:Georgia;
-        font-size: 300%;
-        display: grid;
-  place-content: center;
-    }
-
 .logoPrincipal{
   opacity: 0.85;
   align-content: center;
 }
 
-.contenedorLogoPrincipal{
+.contenedorPrincipal{
+  /* background: url(./Imagenes/wall2.jpg);
+  background-size: cover; */
+  background-color: rgb(247, 242, 252);
+}
+/* .contenedorLogoPrincipal{
   display: flex;
   justify-content: center;
-}
+  height: 8rem;
+} */
 
 .imagenLogo{
   width: 6rem;
 }
-
+.navbar{
+  background-color: rgb(224, 206, 241);
+}
 .navegacion{
   display: flex;
   width: 100%;
@@ -31,17 +30,16 @@ h1 {
   display: flex;
 }
 
-.formulario{
-  border: 3px solid #262626;
-  padding: 2rem;
-  border-radius: 20px;
-  margin-bottom: 8rem;
+
+.textosDeContacto{
+  text-align: center;
+  padding-top: 20px;
 }
 
 .tituloContacto{
   text-align: center;
   margin-bottom: 1.5rem;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #262626;
 }
 
@@ -49,6 +47,28 @@ h1 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
+
+
+
+
+.formulario{
+  border: 3px solid #262626;
+  padding: 2rem;
+  border-radius: 20px;
+  margin-bottom: 8rem;
+  background-color: white;
+}
+
+.botonEnviar{
+  background-color: rgb(224, 206, 241);
+}
+
+.botonEnviar:hover{
+  background-color: #262626;
+  color: white;
+}
+
+
 
 .icons{
   width: 2rem;
@@ -74,19 +94,47 @@ h1 {
 .opcionFooterBtnTxt{
   display: flex;
   color: white;
-  width: 25rem;
+  width: 30rem;
   justify-content: space-between;
-  font-weight: 600;
+  align-items: center;
 }
 
-.opcionFooterBtnIcono{
+/* .opcionFooterBtnIcono{
   display: flex;
   color: white;
   width: 25rem;
   justify-content: center;
-}
+} */
 
 .icons2 {
-  width: 2rem;
-  margin: 0 2rem 0 2rem;
+  width: 2.2rem;
+}
+
+.optionsNav, .icons2{
+  transition: color .15s ease-in-out;
+  background-color: .15s ease-in-out;
+  border-color: .15s ease-in-out;
+  box-shadow: .15s ease-in-out;
+  border-radius: 5px;
+  padding: 0.4rem;
+  font-weight: 100;
+
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s, 0s;
+  transition-property: color, background-color, border-color, box-shadow;
+}
+
+.optionsNav:hover, .icons2:hover{
+  transition: color .15s ease-in-out;
+  background-color: .15s ease-in-out;
+  border-color: .15s ease-in-out;
+  box-shadow: .15s ease-in-out;
+  background-color: rgb(224, 206, 241);
+  color: #262626;
+
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s, 0s;
+  transition-property: color, background-color, border-color, box-shadow;
 }
