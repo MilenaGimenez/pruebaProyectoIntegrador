@@ -138,3 +138,25 @@
   transition-delay: 0s, 0s, 0s, 0s;
   transition-property: color, background-color, border-color, box-shadow;
 }
+
+
+
+@media only screen and (max-width: 992px) {  
+  .opcion1, .opcion2{
+    display: block;
+  }
+  .nav-link {
+    padding-left: 10px;
+  }
+  /* .opcion2{
+    display: flex;
+  }
+  .icons{
+    margin-right: 10px;
+    width: 1.5rem;
+  } */
+
+  .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.87);
+  }
+}
