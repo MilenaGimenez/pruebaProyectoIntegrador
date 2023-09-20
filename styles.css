@@ -4,22 +4,24 @@
 }
 
 .contenedorPrincipal{
-  /* background: url(./Imagenes/wall2.jpg);
-  background-size: cover; */
   background-color: rgb(247, 242, 252);
-}
-/* .contenedorLogoPrincipal{
+  height: 100vh;
   display: flex;
-  justify-content: center;
-  height: 8rem;
-} */
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .imagenLogo{
   width: 6rem;
 }
+
 .navbar{
   background-color: rgb(224, 206, 241);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
+
 .navegacion{
   display: flex;
   width: 100%;
@@ -34,6 +36,7 @@
 .textosDeContacto{
   text-align: center;
   padding-top: 20px;
+  margin-top: 4rem;
 }
 
 .tituloContacto{
@@ -47,27 +50,6 @@
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
-
-
-
-
-.formulario{
-  border: 3px solid #262626;
-  padding: 2rem;
-  border-radius: 20px;
-  margin-bottom: 8rem;
-  background-color: white;
-}
-
-.botonEnviar{
-  background-color: rgb(224, 206, 241);
-}
-
-.botonEnviar:hover{
-  background-color: #262626;
-  color: white;
-}
-
 
 
 .icons{
@@ -98,13 +80,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
-/* .opcionFooterBtnIcono{
-  display: flex;
-  color: white;
-  width: 25rem;
-  justify-content: center;
-} */
 
 .icons2 {
   width: 2.2rem;
@@ -139,24 +114,35 @@
   transition-property: color, background-color, border-color, box-shadow;
 }
 
-
+/* Responsive - Media Queries */
 
 @media only screen and (max-width: 992px) {  
   .opcion1, .opcion2{
     display: block;
   }
-  .nav-link {
+  .itemsNavbar {
     padding-left: 10px;
-  }
-  /* .opcion2{
-    display: flex;
-  }
-  .icons{
-    margin-right: 10px;
-    width: 1.5rem;
-  } */
-
-  .nav-link:hover{
+  }  
+  .itemsNavbar:hover{
     background-color: rgba(255, 255, 255, 0.87);
   }
 }
+
+
+/* Home */
+/* .contenedorCarousel{
+  border: 1px solid green;
+  width: 100% !important; 
+}
+
+.carousel-item{
+  border: 1px solid red;
+  width: 100% !important; 
+  height: 40rem;
+  display: flex;
+  background-size: cover;
+} */
+
+/* .imagenSlider{
+  border: 1px solid black;  
+} */
